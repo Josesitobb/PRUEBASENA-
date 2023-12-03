@@ -1,11 +1,11 @@
 <?php
-$servername = "josecitas.mysql.database.azure.com";
-$username = "JOSE";
-$password = "Celular528";
+$servername = "pruebasena.mysql.database.azure.com";
+$username = "pruebasena";
+$password = "Arrozconqueso123";
 $db = "mydb";
 $port = 3306;
 
-$ssl_cert = realpath('../../../base de datos/DigiCertGlobalRootCA.crt.pem');
+$ssl_cert = realpath('../../../base de datos/DigiCertGlobalRootCA.crt (1).pem');
 
 // Configuración de la conexión
 $conn = mysqli_init();
